@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quantico", sans-serif;
+  overflow-x: hidden;
+}
+
+header {
+  height: 70px;
+  background-color: rgba(39, 44, 61, 1);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 25px;
+}
+
+ul {
+  color: white;
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 400;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: rgba(255, 156, 40, 1);
+}
+
+.inp-img {
+  display: flex;
+  gap: 40px;
+}
+
+.inp {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 242px;
+  height: 30px;
+  background-color: rgba(64, 72, 100, 1);
+  margin-left: 40px;
+  border-radius: 5px;
+}
+
+.inp input {
+  background-color: rgba(64, 72, 100, 1);
+  border: none;
+  margin-right: 50px;
+  margin-left: 10px;
+}
+
+select {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 173px;
+  height: 30px;
+  border: none;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 5px 94px 5px 11px;
+  border-radius: 5px;
+}
+
+.section-1 {
+  background-image: url(img/Bg.png);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section-2 {
+  background-color: black;
+}
+
+.section-2 h1 {
+  color: white;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 45.76px;
+}
+.section2 img {
+  animation: scrollImages 20s linear infinite;
+}
+@keyframes scrollImages {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+.img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.section-3 {
+  background-color: rgb(0, 0, 0);
+}
+
+.baner {
+  background-color: rgba(27, 30, 39, 1);
+  width: 1420px;
+  margin-left: 47px;
+  margin-top: 60px;
+}
+
+.baner-cards {
+  margin: 64px 204px 142px 345px;
+}
+
+.baner-cards h2 {
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34.32px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.cards-in {
+  display: flex;
+  justify-content: left;
+  gap: 17px;
+}
+
+.cards-in p {
+  color: rgba(191, 191, 191, 1);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22.4px;
+  width: 323px;
+  height: 234px;
+  text-align: left;
+}
+
+.section-4 {
+  background-color: rgba(39, 44, 61, 1);
+}
+
+.footer-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 25px;
+}
